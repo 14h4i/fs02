@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fs02/values/app_color.dart';
 import 'package:fs02/values/app_image.dart';
-import 'package:fs02/widgets/message_widget.dart';
-import 'package:fs02/widgets/avatar_message_widget.dart';
 import 'package:fs02/widgets/user_message_widget.dart';
 
 class Session02Page extends StatelessWidget {
