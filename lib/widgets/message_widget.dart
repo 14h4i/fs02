@@ -21,7 +21,7 @@ class MessageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -54,10 +54,13 @@ class MessageWidget extends StatelessWidget {
             fontSize: fontSize,
           ),
         ),
-        const Divider(
-          thickness: 2,
-          height: 40,
+        const SizedBox(height: 20),
+        Container(
+          decoration: BoxDecoration(
+              color: Colors.black,
+              border: Border.all(width: 0.5, color: Colors.black)),
         ),
+        const SizedBox(height: 10),
       ],
     );
   }
