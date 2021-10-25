@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:fs02/pages/all_widgets_page.dart';
 import 'package:fs02/pages/home_page.dart';
 import 'package:fs02/pages/session_01_page.dart';
 import 'package:fs02/pages/session_02_page.dart';
@@ -16,6 +17,7 @@ class AppRoutes {
     homePage: (context) => const HomePage(),
     session01: (context) => const Session01Page(),
     session02: (context) => const Session02Page(),
+    allWidgets: (context) => const AllWidgetsPage(),
     ui1: (context) => const UIChallenge01Page(),
     ui2: (context) => const UIChallenge02Page(),
     ui2a: (context) => const UIChallenge02aPage(),
@@ -35,4 +37,6 @@ class AppRoutes {
   static const ui2d = "/ui2d";
 
   static const session02 = "/session02";
+
+  static const allWidgets = "/allWidgets";
 }

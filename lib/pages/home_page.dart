@@ -24,6 +24,12 @@ class HomePage extends StatelessWidget {
               Navigator.pushNamed(context, AppRoutes.session02);
             },
           ),
+          TextButton(
+            child: const Text('All Widgets'),
+            onPressed: () {
+              Navigator.pushNamed(context, AppRoutes.allWidgets);
+            },
+          ),
         ],
       ),
     );
