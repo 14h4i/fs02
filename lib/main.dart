@@ -12,11 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FS01 L02',
+      title: 'FS02',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
       initialRoute: AppRoutes.homePage,
       routes: AppRoutes(context).routes,
     );
